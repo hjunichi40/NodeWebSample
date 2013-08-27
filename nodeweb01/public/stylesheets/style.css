@@ -1,8 +1,51 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  text-align: center;  
 }
 
+div#headerdev {  
+    width: 800px;  
+    margin: 0 auto;  
+    text-align: center;  
+    border: 1px solid #F0F0F0;  
+}
+div#maincontentdev {  
+    width: 800px;  
+    margin: 0 auto;  
+    text-align: center;  
+    border: 1px solid #F0F0F0;  
+}
+div#footerdev {  
+    width: 800px;  
+    margin: 0 auto;  
+    text-align: center;  
+    border: 1px solid #F0F0F0;  
+}
+
+div#inputformdev{
+    width: 500px;  
+    margin: 0 auto;  
+    text-align: center;
+    border: 0px;
+}
+/* Form Input */
+td#inplabeldiv{
+    width: 200px;
+    text-align: right;
+}
+td#spacediv{
+    width: 50px;
+}
+td#inptxtdiv{
+    width: 200px;
+    text-align: left;
+}
+
+div#clrdiv{
+    clear:both;
+}
 a {
   color: #00B7FF;
 }
+

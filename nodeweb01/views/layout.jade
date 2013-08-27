@@ -3,5 +3,13 @@ html
   head
     title= title
     link(rel='stylesheet', href='/stylesheets/style.css')
+    script(src="/javascripts/jquery-2.0.3.min.js", type="text/javascript")
   body
-    block content
+    div(id="headerdev")
+        include header
+    div(id="maincontentdev")
+        block content
+    div(id="footerdev")
+        include footer
+    
+    

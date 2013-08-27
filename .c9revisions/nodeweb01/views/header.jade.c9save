@@ -1,0 +1,5 @@
+{"ts":1377583217363,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1377582928061,"patch":[[{"diffs":[[1,"header."]],"start1":0,"start2":0,"length1":0,"length2":7}]],"length":7,"saved":false}
+{"ts":1377583456390,"patch":[[{"diffs":[[1,"p Welcome "],[0,"header."]],"start1":0,"start2":0,"length1":7,"length2":17}]],"length":17,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1377585459554,"patch":[[{"diffs":[[0,"p "],[-1,"Welcome header."],[1,"ようこそ #{title} へ"]],"start1":0,"start2":0,"length1":17,"length2":17}]],"length":17,"saved":false}
+{"ts":1377585500764,"patch":[[{"diffs":[[-1,"p"],[1,"h1"],[0," ようこ"]],"start1":0,"start2":0,"length1":5,"length2":6}]],"length":18,"saved":false}

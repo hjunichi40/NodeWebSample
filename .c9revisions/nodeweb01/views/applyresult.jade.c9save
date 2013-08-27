@@ -1,0 +1,5 @@
+{"ts":1377596196401,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1377595969470,"patch":[[{"diffs":[[1,"extends layout\n\nblock content\n  ご購入予約ありがとうございます。#{uname}様<BR/>\n  よろしく！<BR/>"]],"start1":0,"start2":0,"length1":0,"length2":75}]],"length":75,"saved":false}
+{"ts":1377595973074,"patch":[[{"diffs":[[0,">\n  "],[-1,"よろしく！"],[0,"<BR/"]],"start1":61,"start2":61,"length1":13,"length2":8}]],"length":70,"saved":false}
+{"ts":1377596464704,"patch":[[{"diffs":[[0,"とうございます。"],[1,"<BR/>"],[0,"#{uname}"]],"start1":40,"start2":40,"length1":16,"length2":21}]],"length":75,"saved":false}
+{"ts":1377596470673,"patch":[[{"diffs":[[0,"{uname}様"],[-1,"<BR/>"],[0,"\n  <BR/>"]],"start1":54,"start2":54,"length1":21,"length2":16}]],"length":70,"saved":false}

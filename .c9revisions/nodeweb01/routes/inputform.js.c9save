@@ -1,0 +1,23 @@
+{"ts":1377583892365,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1377583603382,"patch":[[{"diffs":[[1,"\n/*\n * GET home page.\n */\n\nexports.inputform = function(req, res){\n  res.render('index', { title: 'Express' });\n};"]],"start1":0,"start2":0,"length1":0,"length2":114}]],"length":114,"saved":false}
+{"ts":1377583625313,"patch":[[{"diffs":[[0,"e: '"],[-1,"Express"],[1,"パーカー購入サイト"],[0,"' })"]],"start1":95,"start2":95,"length1":15,"length2":17}]],"length":116,"saved":false}
+{"ts":1377583643403,"patch":[[{"diffs":[[0,"('in"],[-1,"dex"],[1,"putform"],[0,"', {"]],"start1":79,"start2":79,"length1":11,"length2":15}]],"length":120,"saved":false}
+{"ts":1377583741549,"patch":[[{"diffs":[[0,"e: '"],[-1,"パーカー購入サイト"],[1,"aaa"],[0,"' })"]],"start1":99,"start2":99,"length1":17,"length2":11}]],"length":114,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1377584476761,"patch":[[{"diffs":[[0,"ports.in"],[-1,"putform"],[1,"itdisp"],[0," = funct"]],"start1":29,"start2":29,"length1":23,"length2":22}]],"length":113,"saved":false}
+{"ts":1377584708717,"patch":[[{"diffs":[[0,"e: '"],[-1,"aaa"],[1,"パーカー購入サイト（ABS）"],[0,"' })"]],"start1":98,"start2":98,"length1":11,"length2":22}]],"length":124,"saved":false}
+{"ts":1377585644137,"patch":[[{"diffs":[[0,"title: '"],[1,"ABS "],[0,"パーカー購入サイ"]],"start1":94,"start2":94,"length1":16,"length2":20},{"diffs":[[0,"入サイト"],[-1,"（ABS）"],[0,"' })"]],"start1":111,"start2":111,"length1":13,"length2":8}]],"length":123,"saved":false}
+{"ts":1377595549510,"patch":[[{"diffs":[[0,"' });\n};"],[1,"\n\nexports.initdisp = function(req, res){\n  res.render('inputform', { title: 'ABS パーカー購入サイト' });\n};"]],"start1":115,"start2":115,"length1":8,"length2":106}]],"length":221,"saved":false}
+{"ts":1377595562867,"patch":[[{"diffs":[[0,"};\n\nexports."],[-1,"initdisp"],[1,"aply"],[0," = function("]],"start1":121,"start2":121,"length1":32,"length2":28}]],"length":217,"saved":false}
+{"ts":1377595814004,"patch":[[{"diffs":[[0,"orts.apl"],[1,"p"],[0,"y = func"]],"start1":128,"start2":128,"length1":16,"length2":17}]],"length":218,"saved":false}
+{"ts":1377595986309,"patch":[[{"diffs":[[0,"orm', { "],[-1,"title: 'ABS パーカー購入サイト"],[1,"uname: 'あああ"],[0,"' });\n};"]],"start1":181,"start2":181,"length1":37,"length2":27}]],"length":208,"saved":false}
+{"ts":1377595998496,"patch":[[{"diffs":[[0,"res.render('"],[-1,"inputform"],[1,"applyfesult"],[0,"', { uname: "]],"start1":163,"start2":163,"length1":33,"length2":35}]],"length":210,"saved":false}
+{"ts":1377596020294,"patch":[[{"diffs":[[0,"tion(req, res){\n"],[1,"  console.log(req.body);\n"],[0,"  res.render('ap"]],"start1":145,"start2":145,"length1":32,"length2":57}]],"length":235,"saved":false}
+{"ts":1377596028482,"patch":[[{"diffs":[[0,", res){\n"],[1,"  "],[0,"  res.re"]],"start1":58,"start2":58,"length1":16,"length2":18},{"diffs":[[0,", res){\n"],[1,"  "],[0,"  consol"]],"start1":155,"start2":155,"length1":16,"length2":18},{"diffs":[[0,".body);\n"],[1,"  "],[0,"  res.re"]],"start1":182,"start2":182,"length1":16,"length2":18}]],"length":241,"saved":false}
+{"ts":1377596107374,"patch":[[{"diffs":[[0,"(req, res){\n"],[1,"    console.log(\"initdisp Log\");\n    console.log(req.body);\n"],[0,"    res.rend"]],"start1":54,"start2":54,"length1":24,"length2":84}]],"length":301,"saved":false}
+{"ts":1377596113504,"patch":[[{"diffs":[[0,"tion(req, res){\n"],[1,"    console.log(\"aplpy Log\");\n"],[0,"    console.log("]],"start1":207,"start2":207,"length1":32,"length2":62}]],"length":331,"saved":false}
+{"ts":1377596150249,"patch":[[{"diffs":[[0,"ports.ap"],[-1,"l"],[0,"p"],[1,"l"],[0,"y = func"]],"start1":189,"start2":189,"length1":18,"length2":18}]],"length":331,"saved":false}
+{"ts":1377596179553,"patch":[[{"diffs":[[0,"(\"ap"],[-1,"l"],[0,"p"],[1,"l"],[0,"y Lo"]],"start1":238,"start2":238,"length1":10,"length2":10}]],"length":331,"saved":false}
+{"ts":1377596225144,"patch":[[{"diffs":[[0,"r('apply"],[-1,"f"],[1,"r"],[0,"esult', "]],"start1":293,"start2":293,"length1":17,"length2":17}]],"length":331,"saved":false}
+{"ts":1377596256850,"patch":[[{"diffs":[[0,"sult', {"],[1," title: 'ABS パーカー購入サイト',"],[0," uname: "]],"start1":303,"start2":303,"length1":16,"length2":40}]],"length":355,"saved":false}
+{"ts":1377596397909,"patch":[[{"diffs":[[0,"console.log(req."],[-1,"body"],[1,"query.name"],[0,");\n    res.rende"]],"start1":257,"start2":257,"length1":36,"length2":42}]],"length":361,"saved":false}
+{"ts":1377596426845,"patch":[[{"diffs":[[0,"me: "],[-1,"'あああ'"],[1,"req.query.name"],[0," });"]],"start1":345,"start2":345,"length1":13,"length2":22}]],"length":370,"saved":false}
