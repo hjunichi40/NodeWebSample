@@ -22,14 +22,18 @@ div#footerdev {
     text-align: center;  
     border: 1px solid #F0F0F0;  
 }
+/* header */
+div#facebook{
+    text-align: right;
+}
 
+/* Form Input */
 div#inputformdev{
     width: 500px;  
     margin: 0 auto;  
     text-align: center;
     border: 0px;
 }
-/* Form Input */
 td#inplabeldiv{
     width: 200px;
     text-align: right;
@@ -44,6 +48,13 @@ td#inptxtdiv{
 
 div#clrdiv{
     clear:both;
+}
+/* footer */
+ul#linkul{
+    list-style:none;
+}
+li#linklist{
+    float:left;
 }
 a {
   color: #00B7FF;

@@ -48,3 +48,12 @@
 {"ts":1377595501933,"patch":[[{"diffs":[[0,"text-align: "],[-1,"lef"],[1,"righ"],[0,"t;\n}\ntd#spac"]],"start1":638,"start2":638,"length1":27,"length2":28}]],"length":804,"saved":false}
 {"ts":1377595514151,"patch":[[{"diffs":[[0," width: "],[-1,"1"],[1,"5"],[0,"00px;\n}\n"]],"start1":675,"start2":675,"length1":17,"length2":17}]],"length":804,"saved":false}
 {"ts":1377595515707,"patch":[[{"diffs":[[0,"idth: 50"],[-1,"0"],[0,"px;\n}\ntd"]],"start1":677,"start2":677,"length1":17,"length2":16}]],"length":803,"saved":false}
+{"ts":1377597972360,"patch":[[{"diffs":[[0,"#F0F0F0;  \n}"],[1,"\n/* header */\ndev#facebook{\n    text-align: right;\n}"],[0,"\n\ndiv#inputf"]],"start1":466,"start2":466,"length1":24,"length2":76}]],"length":855,"saved":false}
+{"ts":1377597989038,"patch":[[{"diffs":[[0,"der */\nd"],[-1,"e"],[1,"i"],[0,"v#facebo"]],"start1":485,"start2":485,"length1":17,"length2":17}]],"length":855,"saved":false}
+{"ts":1377598788266,"patch":[[{"diffs":[[0,": right;\n}\n\n"],[1,"/* Form Input */\n"],[0,"div#inputfor"]],"start1":520,"start2":520,"length1":24,"length2":41},{"diffs":[[0," 0px;\n}\n"],[-1,"/* Form Input */"],[0,"\ntd#inpl"]],"start1":644,"start2":644,"length1":32,"length2":16}]],"length":856,"saved":false}
+{"ts":1377598789841,"patch":[[{"diffs":[[0," 0px;\n}\n"],[-1,"\n"],[0,"td#inpla"]],"start1":644,"start2":644,"length1":17,"length2":16}]],"length":855,"saved":false}
+{"ts":1377598798078,"patch":[[{"diffs":[[0,"both;\n}\n"],[1,"/* footer */\n\n"],[0,"a {\n  co"]],"start1":822,"start2":822,"length1":16,"length2":30}]],"length":869,"saved":false}
+{"ts":1377599257104,"patch":[[{"diffs":[[0,"oter */\n"],[1,"li#linklist{\n    \n}"],[0,"\na {\n  c"]],"start1":835,"start2":835,"length1":16,"length2":35}]],"length":888,"saved":false}
+{"ts":1377599273464,"patch":[[{"diffs":[[0,"st{\n    "],[1,"float:left;"],[0,"\n}\na {\n "]],"start1":852,"start2":852,"length1":16,"length2":27}]],"length":899,"saved":false}
+{"ts":1377599275596,"patch":[[{"diffs":[[0,"oter */\n"],[1,"\n"],[0,"li#linkl"]],"start1":835,"start2":835,"length1":16,"length2":17}]],"length":900,"saved":false}
+{"ts":1377599300658,"patch":[[{"diffs":[[0,"oter */\n"],[1,"ul#linkul{\n    list-style:none;\n}"],[0,"\nli#link"]],"start1":835,"start2":835,"length1":16,"length2":49}]],"length":933,"saved":false}
