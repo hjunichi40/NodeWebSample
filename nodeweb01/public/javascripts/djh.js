@@ -6,23 +6,17 @@ $(function(){
 });
 
 $(function(){
-    $(".surname").click(function(){
+    $(".surname,.givingname, .email, .passwd").click(function(){
          $(this).select();
     });
 });
 
 
 $(function(){
-    $('.surname, .email, passwd').live('mouseup', function() {
-        alert('aa');
-        $(this).select();
+    $(".gender").change(function(){
+        if($(this).is(":checked")){
+            $(".RadioSelected:not(:checked)").removeClass("RadioSelected");
+            $(this).next("label").addClass("RadioSelected");
+        }
     });
-});
-
-
-$("input").focus(function() {
-    $("p").fadeToggle("fast", "linear");
-});
-$("input").focusout(function() {
-    $("p").fadeToggle("fast", "linear");
 });

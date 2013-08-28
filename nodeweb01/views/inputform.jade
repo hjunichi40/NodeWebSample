@@ -1,18 +1,17 @@
 extends layout
 
 block content
-  今年、2013年度の学際で着るパーカーの申し込みです.<BR/>
-  よろしく！<BR/>
-  <BR/>
+  p 青山学院大学の文化祭に今年(2013年度)もABSはドーナツ屋で出店します！
+  p みんなでお揃いのパーカーを着て、一致団結しませんか？
+  p 今年のキーワードは・・・・
+  h1「明るく、楽しく、美味しいドーナツ。<BR/>ＡＢＳドーナツは世界を救う！！」<BR/>
+  p よろしくお願いします！
   <BR/>
   
+
   div#scriptdiv.
     <script>
-        $(function(){
-            $("div").click(function(){
-                this.style.backgroundColor = "yellow";
-            });
-        });
+
     </script>
 
   div(id="inputformdev")
@@ -38,25 +37,73 @@ block content
             table
                 tr
                     td(id='inplabeldiv')
-                        label(for='name') SurName:
+                        label(for='surname') 苗字:
                     td(id='spacediv')
                     td(id='inptxtdiv')
                         input.surname(id='SurName',type='text',value='',placeholder='Your SurName',name='surname')
                 tr
                     td(id='inplabeldiv')
-                        label(for='email') email:
+                        label(for='givingname') 名前:
+                    td(id='spacediv')
+                    td(id='inptxtdiv')
+                        input.givingname(id='givingname',type='text',value='',placeholder='Your GivingName',name='givingname')
+                tr
+                    td(id='inplabeldiv')
+                        label(for='email') メールアドレス:
                     td(id='spacediv')
                     td(id='inptxtdiv')
                         input.email(id='email',type='text',value='',placeholder='xxx@local.text',name='email')
                 tr
                     td(id='inplabeldiv')
-                        label(for='password') password:
+                        label(for='password') 変更パスワード:
                     td(id='spacediv')
                     td(id='inptxtdiv')
                         input.passwd(id='passwd',type='password',value='',placeholder='xxxxx',name='passwd')
-    
+                tr
+                    td(id='inplabeldiv')
+                        label(for='telnumber') 電話番号:
+                    td(id='spacediv')
+                    td(id='inptxtdiv')
+                        input.telnumber(id='telnumber',type='text',value='',placeholder='xxx-xxxx-xxxx',name='telnumber')
+                tr
+                    td(id='inplabeldiv')
+                        label(for='postcode') 郵便番号:
+                    td(id='spacediv')
+                    td(id='inptxtdiv')
+                        input.postcode(id='postcode',type='text',value='',placeholder='xxx-xxxx',name='postcode')
+                tr
+                    td(id='inplabeldiv')
+                        label(for='address1') 住所１:
+                    td(id='spacediv')
+                    td(id='inptxtdiv')
+                        input.address1(id='address1',type='text',value='',placeholder='XXXXXXX',name='address1')
+                tr
+                    td(id='inplabeldiv')
+                        label(for='address2') 住所2:
+                    td(id='spacediv')
+                    td(id='inptxtdiv')
+                        input.address2(id='address2',type='text',value='',placeholder='XXXXXXX',name='address2')
+                tr
+                    td(id='inplabeldiv')
+                        label(for='gender') 性別:
+                    td(id='spacediv')
+                    td(id='inptxtdiv')
+                        input.gender(id='gender1', type='radio', value='0', name='gender')
+                        label.radiolabel(id='label1', for='gender1')男性
+                        input.gender(id='gender2', type='radio', value='1', name='gender')
+                        label.radiolabel(id='label2', for='gender2')女性
+                tr
+                    td(id='inplabeldiv')
+                        label(for='context') 所属:
+                    td(id='spacediv')
+                    td(id='inptxtdiv')
+                        select.context(id='context', name='context')
+                            option(value='0') 1年生
+                            option(value='1') 2年生
+                            option(value='2') 教員
+
         div(data-role='fieldcontain')   
-          input(type='submit',value=' apply ',data-transition='fade', data-theme='c')
+          input(type='submit',value=' 購入予約 ',data-transition='fade', data-theme='c')
 
 
 

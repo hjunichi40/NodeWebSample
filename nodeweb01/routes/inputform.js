@@ -149,7 +149,8 @@ exports.apply = function(req, res){
     
     /* ユーザ情報登録 */
     var autoid;
-	query = connection.query('insert into AppliedUsers(MailAddress, SurName) values (?, ?)', [req.query.email, req.query.surname], function (err, results) {
+	query = connection.query('insert into AppliedUsers(MailAddress, SurName, GivingName, TelNumber, PostCode, Address1, Address2, Gender, Context, ContextDetail) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)', 
+	[req.query.email, req.query.surname, req.query.givingname, req.query.telnumber, req.query.postcode, req.query.address1, req.query.address2, req.query.gender, req.query.context, ""], function (err, results) {
         if(err){
             console.log(err);
             connection.end(function() {console.log('connection end');});

@@ -1,11 +1,13 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 12px "Lucida Grande", Helvetica, Arial, sans-serif;
   text-align: center;  
+  background-color: #909090;
 }
 
 div#headerdev {
-    background-color: #f9ffff;
+    background-color: #0b61a4;
+    color: #ffffff;
     width: 800px;  
     margin-top: 10px;
     margin: 0 auto;  
@@ -22,7 +24,8 @@ div#maincontentdev {
     border: 1px solid #F0F0F0;  
 }
 div#footerdev {  
-    background-color: #f9ffff;
+    background-color: #0b61a4;
+    color: #ffffff;
     width: 800px;  
     margin: 0 auto;
     padding: 20px;
@@ -43,14 +46,17 @@ div#inputformdev{
 }
 td#inplabeldiv{
     width: 200px;
+    height:30px;
     text-align: right;
 }
 td#spacediv{
     width: 50px;
+    height:30px;
 }
 td#inptxtdiv{
     width: 200px;
-    text-align: left;
+    height:30px;
+
 }
 
 div#clrdiv{
@@ -68,3 +74,26 @@ a {
   color: #00B7FF;
 }
 
+/* 14. ラジオボタンとチェックボックスを装飾する */		
+.checkbox,.gender{
+	z-index: -1;
+	position: absolute;
+	}
+	.CheckBoxLabelClass{
+		background: #fff url("/images/checkbox.png") no-repeat 2px 0;
+		margin-right:20px;
+		padding-left:22px;
+		}
+	
+	.radiolabel{
+		background: #fff url("/images/radio.png") no-repeat 2px 0;
+		margin-right:20px;
+		padding-left:22px;
+		}
+		
+.LabelSelected,.RadioSelected{
+	background-position: 2px bottom;
+	}
+.context{
+    width:150px;
+}
