@@ -9,7 +9,7 @@ var user = require('./routes/user');
 var inputform = require('./routes/inputform');
 var http = require('http');
 var path = require('path');
-var mysql = require('mysql');
+
 
 var app = express();
 

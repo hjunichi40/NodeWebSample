@@ -6,30 +6,58 @@ block content
   <BR/>
   <BR/>
   
+  div#scriptdiv.
+    <script>
+        $(function(){
+            $("div").click(function(){
+                this.style.backgroundColor = "yellow";
+            });
+        });
+    </script>
+
   div(id="inputformdev")
     form(action='/inputform/apply', method='get')
-        table
-            tr
-                td(id='inplabeldiv')
-                    label(for='name') Name:
-                td(id='spacediv')
-                td(id='inptxtdiv')
-                    input(id='Name',type='text',value='',placeholder='Your Name',name='name')
-            tr
-                td(id='inplabeldiv')
-                    label(for='email') email:
-                td(id='spacediv')
-                td(id='inptxtdiv')
-                    input(id='email',type='text',value='',placeholder='xxx@local.text',name='email')
-            tr
-                td(id='inplabeldiv')
-                    label(for='password') password:
-                td(id='spacediv')
-                td(id='inptxtdiv')
-                    input(id='password',type='password',value='',placeholder='xxxxx',name='password')
+        fieldset
+            legend 商品選択
+            p
+                label
+                    input#toggle(type='checkbox')
+                    | 全部選択
+            label
+                input.cbox(type='checkbox', name='chxBlack', value='1')
+                | Black
+            label
+                input.cbox(type='checkbox', name='chkWhite', value='2')
+                | White
+            label
+                input.cbox(type='checkbox', name='chkPink', value='3')
+                | Pink
+
+        fieldset
+            legend 登録情報
+            table
+                tr
+                    td(id='inplabeldiv')
+                        label(for='name') SurName:
+                    td(id='spacediv')
+                    td(id='inptxtdiv')
+                        input.surname(id='SurName',type='text',value='',placeholder='Your SurName',name='surname')
+                tr
+                    td(id='inplabeldiv')
+                        label(for='email') email:
+                    td(id='spacediv')
+                    td(id='inptxtdiv')
+                        input.email(id='email',type='text',value='',placeholder='xxx@local.text',name='email')
+                tr
+                    td(id='inplabeldiv')
+                        label(for='password') password:
+                    td(id='spacediv')
+                    td(id='inptxtdiv')
+                        input.passwd(id='passwd',type='password',value='',placeholder='xxxxx',name='passwd')
     
         div(data-role='fieldcontain')   
-          input(type='submit',value=' aply ',data-transition='fade', data-theme='c')
-          
-  
+          input(type='submit',value=' apply ',data-transition='fade', data-theme='c')
+
+
+
   

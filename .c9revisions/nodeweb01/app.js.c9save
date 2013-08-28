@@ -6,3 +6,4 @@
 {"ts":1377584486691,"patch":[[{"diffs":[[0,"tform.in"],[-1,"putform"],[1,"itdisp"],[0,");\n\nhttp"]],"start1":816,"start2":816,"length1":23,"length2":22}]],"length":967,"saved":false}
 {"ts":1377595803362,"patch":[[{"diffs":[[0,"itdisp);"],[1,"\napp.get('/inputform/apply', inputform.initdisp);"],[0,"\n\nhttp.c"]],"start1":824,"start2":824,"length1":16,"length2":65}]],"length":1016,"saved":false}
 {"ts":1377596194937,"patch":[[{"diffs":[[0,"putform."],[-1,"initdisp"],[1,"apply"],[0,");\n\nhttp"]],"start1":863,"start2":863,"length1":24,"length2":21}]],"length":1013,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1377671780143,"patch":[[{"diffs":[[0,"');\n"],[-1,"var mysql = require('mysql');"],[0,"\n\nva"]],"start1":238,"start2":238,"length1":37,"length2":8}]],"length":984,"saved":false}
